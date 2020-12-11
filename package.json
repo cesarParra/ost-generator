@@ -1,7 +1,7 @@
 {
   "name": "ost-generator",
   "description": "Generates Offline Symbol Tables from source code",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Cesar Parra",
   "bin": {
     "generate-ost": "./bin/run"
