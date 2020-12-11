@@ -62,7 +62,7 @@
     "version": "oclif-dev readme && git add README.md",
     "build": "rimraf ./build && tsc",
     "antlr4ts": "antlr4ts -visitor src/parsers/ApexLexer.g4 src/parsers/ApexParser.g4 -o src/parsers/base/",
-    "publish": 'np --no-tests'
+    "publish": "np --no-tests"
   },
   "types": "lib/index.d.ts"
 }
