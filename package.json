@@ -1,7 +1,7 @@
 {
   "name": "ost-generator",
   "description": "Generates Offline Symbol Tables from source code",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Cesar Parra",
   "bin": {
     "generate-ost": "./bin/run"
@@ -61,7 +61,8 @@
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md",
     "build": "rimraf ./build && tsc",
-    "antlr4ts": "antlr4ts -visitor src/parsers/ApexLexer.g4 src/parsers/ApexParser.g4 -o src/parsers/base/"
+    "antlr4ts": "antlr4ts -visitor src/parsers/ApexLexer.g4 src/parsers/ApexParser.g4 -o src/parsers/base/",
+    "publish": 'np --no-tests'
   },
   "types": "lib/index.d.ts"
 }
