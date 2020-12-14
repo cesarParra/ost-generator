@@ -45,7 +45,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/https://github.com/cesarParra/https://github.com/cesarParra",
+  "homepage": "https://www.npmjs.com/package/ost-generator",
   "keywords": [
     "oclif"
   ],
@@ -54,7 +54,7 @@
   "oclif": {
     "bin": "generate-ost"
   },
-  "repository": "https://github.com/cesarParra/https://github.com/cesarParra",
+  "repository": "https://github.com/cesarParra/ost-generator",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rimraf lib && tsc -b && oclif-dev readme",
