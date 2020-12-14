@@ -23,7 +23,6 @@ npm install --global ost-generator
 <!-- toc -->
 * [Install](#install)
 * [Usage](#usage)
-* [Commands](#commands)
 <!-- tocstop -->
 # Usage
 
@@ -60,7 +59,7 @@ $ npm install -g ost-generator
 $ generate-ost COMMAND
 running command...
 $ generate-ost (-v|--version|version)
-ost-generator/1.0.0 win32-x64 node-v12.17.0
+ost-generator/1.0.1 win32-x64 node-v12.17.0
 $ generate-ost --help [COMMAND]
 USAGE
   $ generate-ost COMMAND
